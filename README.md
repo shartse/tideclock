@@ -4,6 +4,9 @@ the current day on a ePaper (also known as eInk) display. There display graphs t
 if the tide is rising or falling and the time of the next low or high tide. Pressing `Key0` on the display triggers a refresh, which redraws the graph and current time as
 well as re-fetching data if needed.
 
+![epaper_display](https://user-images.githubusercontent.com/3758853/234388793-c855bebe-b907-4ced-ad6f-a0e73d896113.jpg)
+
+
 ## Tools
 + [Raspberry Pi Pico WH](https://www.raspberrypi.com/products/raspberry-pi-pico/) - WiFi (`W`) is required to make NOAA API requests, but pre-soldered headers (`H`) just makes this a solderless project.
 + [Waveshare Pico ePaper display](https://www.waveshare.com/wiki/Pico-ePaper-2.7) - This device is designed to plug directly onto the Pico's headers. Other Waveshare devices should work as well,
